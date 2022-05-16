@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карточка товара разными методами</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="page1 page">Вариант №1 (float)
+                <div class="box1">
+                <img class="foto" src="img/car.jpg" alt="">
+                </div>
+                <div class="box2">
+                    Наименование <br>
+                    Описание <br>
+                    Цена
+                    <div class="box3">
+                        <a href="#">Купить</a>
+                        </div>
+                </div>
+        </div>
+        <div class="page2 page">Вариант№2 (display: inline-block) <br>
+            <div class="box4">
+                <img class="foto2" src="img/car2.jpg" alt="">
+            </div><div class="box5">
+                    Наименование <br>
+                    Описание <br>
+                    Цена
+                    <div class="box6">
+                        <a href="#">Купить</a>
+                        </div>
+                </div>
+                          
+        </div>
+        
+        <div class="page3 page">Вариант№3 (table)
+            <table>
+                <tr>
+                    <th rowspan="4">
+                        <img class="foto3" src="img/car3.jpg" alt="">
+                    </th>
+                    <th>Наименование</th>
+                    <tr>
+                        <td>Описание</td>
+                    </tr>
+                    <tr>
+                        <td>Цена</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="box7">
+                                <a href="#">Купить</a>
+                                </div>
+                        </td>
+                    </tr>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+</body>
+</html>
